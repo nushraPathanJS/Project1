@@ -1,0 +1,44 @@
+.container{
+  height: 700px;
+  width: 700px;
+  background-color: aqua;
+  margin: auto;
+  border: 2px solid black;
+  position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+div{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 76);
+  border: 2px solid black;
+  position: absolute;
+
+}
+
+ #box1{
+  top: 0;
+  left: 0;
+}
+
+#box5{
+  top: 0;
+  right: 0;
+  
+} 
+#box3{
+align-self: center;
+} 
+
+ #box2{
+  bottom: 0;
+  left: 0;
+}
+#box4{
+  bottom: 0;
+  right: 0;
+}

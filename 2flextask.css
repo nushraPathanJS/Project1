@@ -1,0 +1,51 @@
+ #head{
+  height: 80px;
+  background-color: orangered;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 30px;
+ }
+
+ .body{
+  display: flex;
+  flex-direction: row;
+
+ }
+
+ div{
+  height:500px;
+ }
+
+ #box1{
+  background-color: rgb(142, 142, 220);
+  width: 350px;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 30px;
+ }
+
+  #box2{
+  background-color: rgb(52, 5, 69);
+  width: 800px;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 30px;
+ }
+
+  #box3{
+  background-color: rgb(5, 71, 16);
+  width: 350px;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 30px;
+ }
+
+ #foot{
+   height: 80px;
+  background-color: rgb(166, 13, 64);
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 60px;
+ }
+  
+ 

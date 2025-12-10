@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="4form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Registration Form</h1>
+      <form>
+        <label for="rollno">Roll Number:</label>
+        <input type="number" id="rollno" name="rollno" class="inputBox" />
+        <br />
+        <label for="studentName">Student name:</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          id="studentName"
+          name="studentName"
+          class="inputBox"
+        />
+        <br />
+        <label for="mobileNumber">Mobile Number:</label>
+        <input
+          type="tel"
+          placeholder="Enter your mobile number"
+          id="mobileNumber"
+          name="mobileNumber"
+          class="inputBox"
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          id="email"
+          name="email"
+          class="inputBox"
+        />
+        <br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="password"
+          name="password"
+          class="inputBox"
+        />
+        <br />
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" class="inputBox" />
+        <br />
+        <div class="field-row gender-row">
+          <label for="gender">Gender:</label>
+          <div class="gender-options">
+            <label1
+              ><input type="radio" id="male" name="gender" value="male" />
+              Male</label1
+            >
+            <label1
+              ><input type="radio" id="female" name="gender" value="female" />
+              Female</label1
+            >
+          </div>
+        </div>
+        <br />
+        <label for="dpartments">Departments:</label>
+        <input type="checkbox" id="cse" name="department" value="cse" /> CSE
+        <input type="checkbox" id="ece" name="department" value="ece" /> ECE
+        <input type="checkbox" id="mech" name="department" value="mech" /> MECH
+        <input type="checkbox" id="civil" name="department" value="civil" />
+        CIVIL <input type="checkbox" id="IT" name="department" value="IT" /> IT
+        <br /><br />
+        <label for="course">Course:</label>
+        <select id="course" name="course" class="inputBox">
+          <option value="btech">B.Tech</option>
+          <option value="mtech">M.Tech</option>
+          <option value="bca">BCA</option>
+          <option value="mca">MCA</option>
+          <option value="bsc">B.Sc</option>
+          <option value="msc">M.Sc</option>
+        </select>
+        <br />
+        <br />
+        <label for="address">Address:</label>
+        <textarea
+          id="address"
+          name="address"
+          rows="5"
+          cols="50"
+          placeholder="Enter your address"
+        ></textarea>
+        <br />
+
+        <input
+          type="button"
+          placeholder="Register Here"
+          value="Register"
+          class="registerButton"
+        />
+      </form>
+    </div>
+  </body>
+</html>

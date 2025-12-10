@@ -1,0 +1,52 @@
+.container {
+  height: 800px;
+  width: 800px;
+  margin: auto;
+  background-color: rgb(236, 188, 117);
+}
+h1{
+  text-align: center;
+  padding-top: 50px;
+}
+label{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  width: 250px;
+} 
+.inputBox{
+  height: 25px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.field-row {
+  display: flex;
+  align-items: center;
+} 
+
+.gender-options {
+  display: flex;
+  align-items: center;
+}
+
+ .gender-options label {
+  font-weight: normal;
+  cursor: pointer;
+} 
+label1{
+  margin-right: 20px;
+}
+.registerButton{
+  height: 30px;
+  width: 100px;
+  margin-left: 350px;
+  margin-top: 60px;
+  background-color: rgb(14, 110, 110);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
